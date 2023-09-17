@@ -3,15 +3,18 @@ from tkinter import ttk
 
 # Dicionário para armazenar os horários agendados
 agenda = {
-    "09:00 AM": None,
-    "10:00 AM": None,
-    "11:00 AM": None,
-    "12:00 PM": None,
-    "01:00 PM": None,
-    "02:00 PM": None,
-    "03:00 PM": None,
-    "04:00 PM": None,
-    "05:00 PM": None,
+    "09:00": None,
+    "10:00": None,
+    "11:00": None,
+    "12:00": None,
+    "13:00": None,
+    "14:00": None,
+    "15:00": None,
+    "16:00": None,
+    "17:00": None,
+    "18:00": None,
+    "19:00": None,
+    "20:00": None,
 }
 
 def agendar_horario():
